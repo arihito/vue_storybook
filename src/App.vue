@@ -1,14 +1,18 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <AppButton text="JSLounge" color="primary" size="large" />
   </div>
 </template>
 
 <script>
+import AppButton from './components/AppButton.vue'
 
 export default {
   name: 'App',
-  components: {}
+  components: {
+    AppButton
+  }
 }
 </script>
 
